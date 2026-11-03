@@ -45,7 +45,7 @@ The relational model consists of 6 normalized entities designed in PostgreSQL:
 erDiagram
     Room_Types ||--o{ Rooms : categorises
     Guests ||--o{ Bookings : places
-    Rooms ||--o{ Bookings : "reserved in"
+    Rooms ||--o{ Bookings : reserved_in
     Bookings ||--o{ Payments : generates
     Bookings ||--|| Check_In_Out_Records : logs
 
