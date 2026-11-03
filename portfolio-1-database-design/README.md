@@ -102,7 +102,7 @@ erDiagram
         string handled_by_staff
     }
 
----
+````
 
 ## 4. Normalisation Rationale (up to 3NF)
 
