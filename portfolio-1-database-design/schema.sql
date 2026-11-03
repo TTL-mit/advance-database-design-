@@ -58,4 +58,4 @@ CREATE TABLE Check_In_Out_Records (
     handled_by_staff VARCHAR(50) NOT NULL,
     CONSTRAINT chk_check_out_time CHECK (actual_check_out IS NULL OR actual_check_out >= actual_check_in)
 );
-
+Portfolio 1: Added DDL schema with integrity constraints
