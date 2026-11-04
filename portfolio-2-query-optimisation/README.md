@@ -34,3 +34,17 @@ WHERE r.status != 'Maintenance'
         AND b.check_in_date < '2026-12-28'
         AND b.check_out_date > '2026-12-20'
   );
+SELECT 
+    rt.type_name,
+    p.payment_method,
+    COUNT(DISTINCT b.booking_id) AS total_bookings,
+    SUM(p.amount) AS total_revenue,
+    ROUND(AVG(p.amount), 2) AS avg_transaction_value
+FROM Payments p
+JOIN Bookings b ON p.booking_id = b.booking_id
+JOIN Rooms r ON b.room_id = r.room_id
+JOIN Room_Types rt ON r.room_type_id = rt.room_type_id
+WHERE p.payment_status = 'Completed'
+  AND p.payment_date >= '2026-01-01'
+GROUP BY rt.type_name, p.payment_method
+ORDER BY total_revenue DESC;
