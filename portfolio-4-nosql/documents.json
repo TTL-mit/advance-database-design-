@@ -1,1 +1,61 @@
-
+[
+  {
+    "_id": "guest_1001",
+    "guest_id": 1,
+    "first_name": "Alice",
+    "last_name": "Johnson",
+    "email": "alice.johnson@example.com",
+    "loyalty_program": {
+      "tier": "Gold",
+      "points_balance": 14500,
+      "perks": ["Free High-Speed Wi-Fi", "Late Check-Out", "Complimentary Breakfast"]
+    },
+    "preferences": {
+      "pillow_type": "Feather",
+      "floor_preference": "High Floor",
+      "dietary_restrictions": ["Gluten-Free"],
+      "quiet_room": true
+    },
+    "stay_history": [
+      {
+        "booking_id": 1,
+        "room_type": "Standard Room",
+        "check_in": "2026-01-10",
+        "check_out": "2026-01-15",
+        "rating": 5,
+        "feedback": "Exceptional service and quick check-in experience."
+      },
+      {
+        "booking_id": 9,
+        "room_type": "Deluxe Suite",
+        "check_in": "2026-12-24",
+        "check_out": "2026-12-30",
+        "special_requests": ["Champagne on arrival", "Extra towels"]
+      }
+    ]
+  },
+  {
+    "_id": "room_301",
+    "room_number": "301",
+    "room_type": "Deluxe Suite",
+    "dynamic_amenities": {
+      "view": "City Skyline & Ocean View",
+      "balcony": true,
+      "jacuzzi": true,
+      "smart_home_controls": {
+        "voice_assistant": "Alexa",
+        "automated_blinds": true,
+        "thermostat_preset": 21.5
+      }
+    },
+    "maintenance_logs": [
+      {
+        "log_id": "m_8821",
+        "date": "2026-09-15",
+        "issue": "Air conditioning filter replacement",
+        "technician": "Tech_Robert",
+        "resolved": true
+      }
+    ]
+  }
+]
