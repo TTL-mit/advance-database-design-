@@ -115,8 +115,8 @@ erDiagram
 ## 5. Script Verification & Execution Instructions
 
 To execute and verify the DDL script:
-1. Connect to your PostgreSQL server instance.
+1. I connected to my PostgreSQL server instance.
 2. Run the DDL script:
    ```bash
-   psql -U your_username -d hotel_db -f schema.sql
+   psql -U postgres -d hotel_db -f schema.sql
    ```
