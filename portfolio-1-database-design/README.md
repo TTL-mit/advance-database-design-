@@ -116,7 +116,7 @@ erDiagram
 
 To execute and verify the DDL script:
 1. I connected to my PostgreSQL server instance.
-2. Run the DDL script:
+2. Ran the DDL script:
    ```bash
    psql -U postgres -d hotel_db -f schema.sql
    ```
