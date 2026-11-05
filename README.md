@@ -20,7 +20,7 @@ This repository contains the complete progressive technical portfolio for **MIT 
 
 ---
 
-## 📂 Repository Directory Structure
+## Repository Directory Structure
 
 ```text
 advanced-database-portfolio/
