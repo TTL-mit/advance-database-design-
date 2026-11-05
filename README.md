@@ -6,8 +6,11 @@
 **Degree Programme:** Master of Information Technology (MIT)  
 
 **Institution:** School of Postgraduate Studies, Miva Open University  
+
 **Academic Session:** 2026/2027 First Semester  
+
 **Assessment Type:** Individual Practical Database Portfolio
+
 **Case Study System:** Grand Horizon Hotel Management System  
 
 ---
