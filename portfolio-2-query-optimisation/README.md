@@ -1,7 +1,7 @@
 # Portfolio 2: Query Processing & Optimisation
 
 ## 1. Overview & Database Setup
-This portfolio component demonstrates query design, execution plan analysis using PostgreSQL's `EXPLAIN ANALYZE`, and performance tuning using targeted indexing strategies [2, 3].
+This portfolio component demonstrates query design, execution plan analysis using PostgreSQL's `EXPLAIN ANALYZE`, and performance tuning using targeted indexing strategies.
 
 * **Database Engine:** PostgreSQL
 * **Case Study:** Grand Horizon Hotel Management System
