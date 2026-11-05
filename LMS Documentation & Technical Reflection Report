@@ -8,7 +8,7 @@
 **Submission Platform:** Miva LMS + GitHub   
 **Student Name:** Saidat Oluwatomisin  
 **Student ID / Matric No:** 301897659/ 2026/A/MIT/0425  
-**GitHub Repository URL:** `[suspicious link removed]`   
+**GitHub Repository URL:** https://github.com/TTL-mit/advance-database-design-/tree/main/portfolio-1-database-design   
 
 ---
 
@@ -63,5 +63,5 @@ Through this project, I gained practical insight into query plan node structures
 ## 4. Academic Integrity & AI Use Declaration
 
 * **AI Tool Used:** Gemini Notebook (Large Language Model Workbench).
-* **Purpose of AI Use:** Assisting with query structure drafting, standardizing Markdown repository templates, organizing portfolio file hierarchies, and troubleshooting GitHub syntax errors.
-* **Verification & Ownership Statement:** All SQL DDL schema structures, NoSQL JSON definitions, python cache scripts, and execution plan analyses were executed, tested, verified, and understood independently in my local pgAdmin PostgreSQL environment.
+* **Purpose of AI Use:** Assisted with query structure drafting, standardizing Markdown repository templates, organizing portfolio file hierarchies, and troubleshooting GitHub syntax errors.
+* **Verification & Ownership Statement:** All SQL DDL schema structures, NoSQL JSON definitions, python cache scripts, and execution plan analyses were executed, tested, verified, and understood independently in my local pgAdmin PostgreSQL environment and Atlas MongeDB.
